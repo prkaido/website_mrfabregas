@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Mr. Fàbregas - Pago</title>
+</head>
+<body>
+    <header>
+        <nav class="top-bar">
+            <div class="logo">
+                <img src="logo.png" alt="Mr. Fàbregas">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="payment-section">
+            <h2>Procesar Pago</h2>
+            <div id="order-summary"></div>
+            <form id="payment-form">
+                <input type="text" id="card-number" placeholder="Número de Tarjeta" required>
+                <input type="text" id="card-name" placeholder="Nombre en la Tarjeta" required>
+                <input type="month" id="card-expiry" required>
+                <input type="text" id="card-cvv" placeholder="CVV" required>
+                <button type="submit">Pagar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Mr. Fàbregas - Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/pago.js"></script>
+</body>
+</html>
+    
